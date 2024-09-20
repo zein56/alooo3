@@ -1,0 +1,94 @@
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#score {
+    position: absolute;
+    left: 50%;
+    color: #fff;
+    margin-top: 400px;
+    font-size: 100px;
+}
+
+#space {
+    background: darkblue;
+    width: 100%;
+    height: 720px;
+}
+
+#Moon {
+    position: absolute;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+#Moon img {
+    position: relative;
+    right: 52px;
+    bottom: 52px;
+    width: 170%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.rock {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+}
+
+.rock img {
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+    filter: brightness(40%);
+}
+
+#rocketPlace {
+    background: rgb(0, 1, 50);
+    width: 100%;
+    height: 210px;
+}
+
+#rocket,
+#explodeRocket {
+    display: none;
+    position: absolute;
+    left: 50%;
+    width: 50px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+#explosion {
+    display: none;
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+}
+
+#rocketImg {
+    position: relative;
+    right: 13px;
+    bottom: 18px;
+    width: 150%;
+    margin: 0px;
+    padding: 0px;
+}
