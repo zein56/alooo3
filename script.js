@@ -13,7 +13,7 @@ function MoonMove() {
         let spaceWidth = spaceElement.offsetWidth;
         let spaceLeft = spaceElement.offsetLeft;
 
-        if (parseInt(document.getElementById("Moon").style.left) > spaceWidth + spaceLeft - 170) {
+        if (parseInt(document.getElementById("Moon").style.left) > spaceWidth + spaceLeft - document.getElementById("Moon").offsetWidth) {
             moonLeft *= -1;
         }
         if (parseInt(document.getElementById("Moon").style.left) < spaceLeft + 20) {
