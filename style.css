@@ -32,8 +32,8 @@ body::-webkit-scrollbar {
 #Moon {
     position: absolute;
     left: 50%;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     text-align: center;
     border-radius: 50%;
 }
